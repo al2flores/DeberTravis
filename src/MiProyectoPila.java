@@ -4,11 +4,7 @@
 import java.io.*;
 /**
  *
- * Programa de usos de pilas: Stacks
- * Autor:  Adrian Abel Castillo Palma   
- *         Christopher López
- * Fecha: Martes, 24 de Noviembre del 2015
- * Docente: Ing. Jacinto Reyes
+
  */
 public class MiProyectoPila {
    public static BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
@@ -32,6 +28,7 @@ public class MiProyectoPila {
     public static void Menu()throws IOException{
        int op; 
        do {
+           System.out.println(" ALDO FLORES ");
             System.out.println("\n\n\t\t\t♦ ♦ ♦ ♦ ♦ ♦  Menú Pila ♦ ♦ ♦ ♦ ♦ ♦ ");
             System.out.println("\t\t\t|                                   |");
             System.out.println("\t\t\t| 1- Insertar elemento              |");
